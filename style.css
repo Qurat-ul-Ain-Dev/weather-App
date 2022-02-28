@@ -1,0 +1,32 @@
+body{
+    background-color: thistle;
+}
+
+.container{
+    max-width: 400px;
+}
+
+.weather-icon{
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    background-color: black;
+    margin-top: -50px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+.zoomout img {
+    height: 400px;
+    width: 400px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+      transition: all 2s ease;
+  }
+  .zoomout img:hover {
+    width: 200px;
+    height: 200px;
+  }
